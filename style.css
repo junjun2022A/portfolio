@@ -84,7 +84,7 @@ body {
     max-width: 1076px;
     margin: 30px auto;
     padding: 0;
-    text-align: left;
+    text-align:left;
     overflow: hidden;
 }
 
@@ -130,10 +130,13 @@ body {
     color: #000;
 }
 
+.works-list .yohaku{
+    margin-top: 90px;
+}
+
 /* {footer}のスタイルシート */
 
 .block-footer p {
-    
     clear: both;
     text-align: center;
     font-size: 15px;
@@ -146,19 +149,43 @@ body {
     body {
         min-width: 100%;
     }
+    .sub-title {
+        font-size: 24px;
+      }
+     
+      /* [header]のスタイルシート */
+     
+      .block-header {
+        padding: 0 10px 10px;
+        box-shadow: 0px 8px 8px -5px rgba(204,204,204,0.3);
+      }
+     
+      .block-header a {
+        font-size: 31px;
+      }
+     
+      /* [main]のスタイルシート */
+     
+      .block-main {
+        text-align: center;
+        margin: 50px 0;
+      }
     /*　profile}のスタイルシート　*/
 
         .box-profile {
             padding: 0 10px;
         }
-    
+        .item-list {
+            max-width: 100%;
+          }
         .item-list b{
             font-size: 18px;
-
-    }
+       }
     
-        .item-list{
-            max-width: 100%;
+        .item-list p{
+            font-size: 14px;
+            line-height: normal;
+            text-align: left;
         }
         .icon-list{
             max-width: 100%;
@@ -167,20 +194,11 @@ body {
         .icon-list li{
             margin-right: 25px 
         }
-
-        .works-list li h3{
-            font-size: 20px;
-            margin:5px 0;
-        }
-        .works-list li span{
-            font-size: 14px;
-            
-        }
     
         /* {works}のスタイルシート*/
         .box-works{
             margin: 60px 0 0;
-            padding: 0 30px;
+            padding: 0 10px;
         }
     
     
@@ -193,21 +211,12 @@ body {
             margin-right: 0;
             margin-bottom: 30px;
         }
-
-    /* [header]のスタイルシート  */
-    
-    .block-header {       
-        padding: 0 10px 10px;
-        box-shadow: 0px 8px 8px -5px rgba(204, 204, 204, 0.3);
-    }
-    
-    .block-header a {
-        font-size: 31px;     
-    } 
-
-    /* [main]のスタイルシート */
-
-    .block-main{
-        margin: 50px 0;
-    }
+        .works-list li h3{
+            font-size: 20px;
+            margin:5px 0;
+        }
+        .works-list li span{
+            font-size: 14px;
+            
+        }
 }
