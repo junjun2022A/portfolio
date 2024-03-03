@@ -86,7 +86,7 @@ body {
     margin: 30px auto;
     padding: 0;
     text-align:left;
-    overflow: hidden;
+    overflow:scroll;
 }
 
 .works-list li{
